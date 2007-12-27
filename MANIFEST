@@ -8,6 +8,7 @@ json_converter.c
 json_parser.c
 PC.xs
 lib/JSON/PC.pm
+t/00-pod.t
 t/01-use.t
 t/02-base.t
 t/03-circleref.t

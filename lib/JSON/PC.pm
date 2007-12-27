@@ -8,7 +8,7 @@ use vars qw($VERSION);
 
 
 BEGIN {
-    $VERSION = '0.01';
+    $VERSION = '0.02';
     require XSLoader;
     XSLoader::load('JSON::PC', $VERSION);
 }
@@ -108,6 +108,19 @@ __END__
 =head1 NAME
 
 JSON::PC -  fast JSON Parser and Converter
+
+=head1 DEPRECATED
+
+This module is too buggy and is not maintained.
+Please try to use L<JSON::XS> which is faster than L<JSON::Syck> and
+properly works.
+
+Additionally, L<JSON> module now use L<JSON::XS> as the backend module
+and if not available, it uses the pure Perl module L<JSON::PP>.
+Theire interfaces are incompatible to old JSON module (version 1.xx).
+
+See to L<JSON>.
+
 
 =head1 SYNOPSIS
 
