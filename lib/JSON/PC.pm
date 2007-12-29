@@ -8,7 +8,7 @@ use vars qw($VERSION);
 
 
 BEGIN {
-    $VERSION = '0.02';
+    $VERSION = '0.03';
     require XSLoader;
     XSLoader::load('JSON::PC', $VERSION);
 }
@@ -107,7 +107,7 @@ __END__
 
 =head1 NAME
 
-JSON::PC -  fast JSON Parser and Converter
+JSON::PC -  (DEPRECATED) fast JSON Parser and Converter
 
 =head1 DEPRECATED
 

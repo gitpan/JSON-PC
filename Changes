@@ -13,6 +13,9 @@ Revision history for Perl extension JSON::PC.
 ###################################################################
 
 
+0.03  Sat Dec 29 15:47:35 2007
+	- forgot to add 'DEPRECATED' to NAME. And this is the end.
+
 0.02  Thu Dec 27 18:48:13 2007
 	- deprecated.
             please check JSON and JSON::XS instead.
